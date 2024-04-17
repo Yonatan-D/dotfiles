@@ -1,4 +1,8 @@
 home=https://npmmirror.com
 registry=https://registry.npmmirror.com/
+grpc_node_binary_host_mirror=https://npmmirror.com/mirrors/
+node_sqlite3_binary_host_mirror=https://npmmirror.com/mirrors/
+ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/
+canvas_binary_host_mirror=https://npmmirror.com/mirrors/node-canvas-prebuilt/
 init-author-name="yonatan"
 init-author-email="yonatan.lin@outlook.com"
