@@ -1,0 +1,15 @@
+[git]
+    autoCommit = true
+    autoPush = true
+
+[edit]
+    command = "code"
+    args = ["--wait"]
+
+[diff]
+command = "code"
+args = ["--wait", "--diff", "{{ .Destination }}", "{{ .Target }}"]
+
+[merge]
+command = "bash"
+
