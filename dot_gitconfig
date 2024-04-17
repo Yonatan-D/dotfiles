@@ -1,0 +1,6 @@
+[user]
+	name = yonatan
+	email = yonatan.lin@outlook.com
+[core]
+	ignorecase = false
+	quotepath = false

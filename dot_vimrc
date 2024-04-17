@@ -1,0 +1,57 @@
+" ---------------------------------- "
+" 基础配置
+" ---------------------------------- "
+set number
+set encoding=UTF-8
+set guifont=DroidSansMono_Nerd_Font:h11
+" set cursorline
+" hi CursorLine   cterm=NONE ctermbg=gray ctermfg=white
+
+"autocmd vimenter * NERDTree
+let g:NERDTreeWinSize = 35 "设定 NERDTree 视窗大小
+"打开vim时如果没有文件自动打开NERDTree
+autocmd vimenter * if !argc()|NERDTree|endif
+"当NERDTree为剩下的唯一窗口时自动关闭
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"设置树的显示图标
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
+"显示隐藏文件
+let g:NERDTreeShowHidden = 1
+
+"let NERDTreeMinimalUI = 1
+"let NERDTreeDirArrows = 1
+
+"let g:nerdtree_tabs_open_on_console_startup=1 "Auto-open Nerdtree-tabs on VIM enter
+
+" ---------------------------------- "
+" 插件配置 (vim-plug)
+" ---------------------------------- "
+" https://zhuanlan.zhihu.com/p/145793963
+
+call plug#begin('~/.vim/plugged')
+
+" 目录树
+Plug 'preservim/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+" 文件类型图标
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" 左右补齐符号
+Plug 'jiangmiao/auto-pairs'
+
+" 底部状态栏
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
+
+
+" ---------------------------------- "
+" 快捷键映射
+" ---------------------------------- "
+
+map <C-n> :NERDTreeToggle<CR>    " ctrl + n 打开/关闭目录树
+
