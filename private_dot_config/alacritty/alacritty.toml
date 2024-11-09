@@ -1,0 +1,19 @@
+# Configuration Doc:
+# https://alacritty.org/config-alacritty.html
+
+[window]
+padding = { x = 18, y = 16 }
+dynamic_padding = true
+opacity = 0.8
+blur = true
+decorations = "None"
+
+[font]
+normal = { family = "MesloLGS Nerd Font", style = "Mono" }
+size = 11
+
+[selection]
+save_to_clipboard = true
+
+[colors]
+transparent_background_colors = true
