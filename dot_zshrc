@@ -224,4 +224,4 @@ bindkey "\e\e" sudo-command-line
 source /usr/share/nvm/init-nvm.sh
 
 # Wayland Fcitx 漏字修复
-alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime %F'
+alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime %F 2> /dev/null'
