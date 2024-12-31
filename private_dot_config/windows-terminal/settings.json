@@ -1,0 +1,152 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysOnTop": false,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "focusFollowMouse": true,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Tango Dark",
+            "font": 
+            {
+                "face": "Hack Nerd Font",
+                "size": 11
+            },
+            "opacity": 85
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "Hack Nerd Font"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.35,
+                "colorScheme": "Tango Dark",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe  /k D:\\\\Software\\\\Tabby\\\\resources\\\\extras\\\\clink\\\\clink_x64.exe inject",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "Hack Nerd Font"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u547d\u4ee4\u63d0\u793a\u7b26",
+                "opacity": 85,
+                "useAcrylic": false
+            },
+            {
+                "font": 
+                {
+                    "face": "Hack Nerd Font"
+                },
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "commandline": "D:\\Software\\Git\\bin\\bash.exe --login -i",
+                "elevate": false,
+                "font": 
+                {
+                    "face": "Hack Nerd Font"
+                },
+                "guid": "{679b8d27-04d0-46de-a6ef-eae5a61647ab}",
+                "hidden": false,
+                "icon": "D:\\Software\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash",
+                "opacity": 85
+            },
+            {
+                "backgroundImage": null,
+                "commandline": "Arch.exe",
+                "guid": "{123fa722-151b-4775-a056-8942244d9ec8}",
+                "hidden": false,
+                "icon": "E:\\WSL\\Arch.ico",
+                "name": "Arch"
+            },
+            {
+                "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
+                "hidden": false,
+                "name": "Ubuntu 24.04.1 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "commandline": "multipass exec vm1 zsh",
+                "guid": "{0ecc62c2-32c2-4a5c-85b7-4940a079f1c7}",
+                "hidden": false,
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "name": "Ubuntu (multipass)"
+            },
+            {
+                "background": "#350425",
+                "commandline": "multipass shell",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Ubuntu Mono"
+                },
+                "guid": "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}",
+                "historySize": 50000,
+                "icon": "D:/Software/Multipass/bin/multipass_wt.ico",
+                "name": "Multipass"
+            }
+        ]
+    },
+    "schemes": [],
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
