@@ -1,0 +1,267 @@
+{
+  "AppConfigs": {
+    "TypeConfigs": {
+      "WindowsExplorer": {},
+      "FileDialog": {},
+      "FolderDialog": {},
+      "Desktop": {},
+      "TotalCommander": {},
+      "DirectoryOpus": {},
+      "FreeCommander": {},
+      "XYplorer": {},
+      "xplorer2": {},
+      "Bandizip": {},
+      "AutoCAD": {},
+      "WinRAR.ExtractDialog": {}
+    },
+    "PathConfigs": {}
+  },
+  "Menus": {
+    "Favorites": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    }
+  },
+  "DiskSearch": {
+    "FolderPriority": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    },
+    "FileNamePriority": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    },
+    "SearchFilter": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    },
+    "DisabledNtfsVolumes": [],
+    "CustomFolders": []
+  },
+  "Commands": {
+    "Items": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "open in vscode",
+            "Path": "D:\\Software\\Microsoft VS Code\\Code.exe",
+            "Parameter": "\"{query}\"",
+            "Id": "75a920f4-4c51-4e36-b34d-44c5417bfd6f",
+            "Keyword": "code",
+            "HotkeyScope": 1,
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "编辑系统环境变量",
+            "Path": "powershell.exe",
+            "Parameter": "rundll32 sysdm.cpl,EditEnvironmentVariables",
+            "Silent": true,
+            "Id": "a76c98c5-55e0-4425-8be4-c1d80fa7bc17",
+            "Keyword": "env",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "Node.js Console",
+            "Path": "node",
+            "Parameter": "",
+            "Id": "2742fe4c-4ce6-41d9-843b-c8d8e99dfe60",
+            "Keyword": "node",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "Open Computer Management",
+            "Path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Computer Management.lnk",
+            "Parameter": "",
+            "Id": "99544200-1c4a-42ef-9d4e-c78c6fdd23c0",
+            "Keyword": "comm",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "Quickly open the directory",
+            "Path": "explorer",
+            "Parameter": "\"{query}\"",
+            "WorkingDirectory": "E:",
+            "Id": "385ccd34-e1fd-48eb-a948-3e1b1fbd8c93",
+            "Keyword": "z",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "Open Drawio",
+            "Path": "D:\\Tools\\draw.io-22.1.15-windows-no-installer.exe",
+            "Parameter": "",
+            "Id": "3d1824ef-a706-414c-843a-cf0a9c5ef50d",
+            "Keyword": "drawio",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "查看公网IP",
+            "Path": "cmd.exe",
+            "Parameter": " /c start http://www.baidu.com/s?wd=ip",
+            "Silent": true,
+            "Id": "dce2dd65-1fed-4d73-8791-408a5eb1df25",
+            "Keyword": "ip",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "在当前目录执行命令",
+            "Path": "cmd.exe",
+            "Parameter": "/c \"{query}\"",
+            "Silent": true,
+            "Id": "0a7555cd-3945-42f9-bdc7-13337747ac95",
+            "Keyword": "run",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "Edit nginx config",
+            "Path": "D:\\Software\\Microsoft VS Code\\Code.exe",
+            "Parameter": "D:\\ENV\\nginx-1.26.2\\conf",
+            "Id": "8dd14eb6-61e7-4af4-8b0b-730fac6ad71f",
+            "Keyword": "nginx",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "open in alacritty",
+            "Path": "D:\\ENV\\bin\\Alacritty-v0.14.0-portable.exe",
+            "Parameter": "",
+            "Id": "1c426148-70df-4149-9c8b-c3462ec648d8",
+            "Keyword": "alacritty",
+            "Hotkey": 704,
+            "HotkeyScope": 2,
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "alacritty settings",
+            "Path": "D:\\Software\\Microsoft VS Code\\Code.exe",
+            "Parameter": "%APPDATA%\\alacritty\\alacritty.toml",
+            "Id": "54571970-6d5c-4e2e-9792-4a54bf07b516",
+            "Keyword": "alacritty settings",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Type": "Options",
+            "$customType": "BuiltinCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "Example: open in Notepad",
+            "Path": "C:\\Windows\\notepad.exe",
+            "Parameter": "\"{query}\"",
+            "Id": "fc316eed-ebc8-441d-aac3-598270a3a9df",
+            "Keyword": "notepad",
+            "$customType": "CustomCommand"
+          }
+        }
+      ],
+      "Updates": [
+        {
+          "Id": "c9407c74-b6f8-4679-a15d-b023ec772d54",
+          "UpdatedProperties": {
+            "Path": "D:\\Software\\Microsoft VS Code\\Code.exe"
+          }
+        }
+      ]
+    }
+  },
+  "WebSearch": {
+    "Items": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": [
+        {
+          "Id": "dd896809-2af4-405b-834f-45816615e3e3",
+          "UpdatedProperties": {
+            "Keyword": "s"
+          }
+        }
+      ]
+    }
+  },
+  "Actions": {
+    "Items": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": [
+        {
+          "Id": "afc47971-acaa-4731-bd26-0cd85109bee0",
+          "UpdatedProperties": {
+            "Silent": true
+          }
+        }
+      ]
+    }
+  },
+  "AutoUpdate": {
+    "EnableAutoUpdate": false
+  },
+  "Settings": {
+    "General.EnableAnalytics": false,
+    "Tutorial.ShowMainV2": false,
+    "Listary5.SettingsImported": true
+  },
+  "Extensions": {
+    "Extensions": {
+      "1a63ea9d-bf25-431f-96e3-17b80027efab": {}
+    }
+  }
+}
