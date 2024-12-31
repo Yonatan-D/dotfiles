@@ -1,0 +1,25 @@
+# Configuration Doc:
+# https://alacritty.org/config-alacritty.html
+
+[terminal.shell]
+program = "arch"
+
+[window]
+dimensions = { columns = 100, lines = 30 }
+padding = { x = 18, y = 16 }
+dynamic_padding = true
+opacity = 0.8
+blur = true
+decorations = "None"
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size = 12
+
+[selection]
+save_to_clipboard = true
+
+[colors]
+
+[terminal]
+# transparent_background_colors = true

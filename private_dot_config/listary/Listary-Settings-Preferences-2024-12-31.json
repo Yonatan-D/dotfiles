@@ -93,6 +93,20 @@
           "Index": -1,
           "Info": null,
           "Item": {
+            "Title": "Open WSL (Arch)",
+            "Path": "D:\\ENV\\bin\\Alacritty-v0.14.0-portable.exe",
+            "Parameter": "--config-file=%APPDATA%\\alacritty\\alacritty-wsl.toml",
+            "Id": "2ef81a86-c1c8-48e7-8fc2-e2bee77e097e",
+            "Keyword": "wsl",
+            "Hotkey": 561,
+            "HotkeyScope": 2,
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
             "Title": "Open Computer Management",
             "Path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Computer Management.lnk",
             "Parameter": "",
@@ -170,7 +184,7 @@
           "Item": {
             "Title": "open in alacritty",
             "Path": "D:\\ENV\\bin\\Alacritty-v0.14.0-portable.exe",
-            "Parameter": "",
+            "Parameter": "--working-directory=E:\\yonatan",
             "Id": "1c426148-70df-4149-9c8b-c3462ec648d8",
             "Keyword": "alacritty",
             "Hotkey": 704,
@@ -207,6 +221,20 @@
             "Parameter": "\"{query}\"",
             "Id": "fc316eed-ebc8-441d-aac3-598270a3a9df",
             "Keyword": "notepad",
+            "$customType": "CustomCommand"
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Title": "Open Multipass (Ubuntu)",
+            "Path": "D:\\ENV\\bin\\Alacritty-v0.14.0-portable.exe",
+            "Parameter": "--config-file=%APPDATA%\\alacritty\\alacritty-ubuntu.toml",
+            "Id": "06bdc811-948f-44b7-8b46-616b81844a78",
+            "Keyword": "ubuntu",
+            "Hotkey": 562,
+            "HotkeyScope": 2,
             "$customType": "CustomCommand"
           }
         }
