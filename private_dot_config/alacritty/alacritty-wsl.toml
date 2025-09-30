@@ -2,7 +2,7 @@
 # https://alacritty.org/config-alacritty.html
 
 [terminal.shell]
-program = "wsl"
+program = "wsl --cd ~"
 
 [window]
 dimensions = { columns = 100, lines = 30 }
